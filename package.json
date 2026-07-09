@@ -1,0 +1,14 @@
+{
+  "name": "ffit-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F Fit Academia — PWA protótipo com dados mockados",
+  "scripts": {
+    "start": "serve -l 3456 .",
+    "dev": "serve -l 3456 .",
+    "preview": "serve -l 4173 ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

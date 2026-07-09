@@ -1,0 +1,33 @@
+=========================================
+  F FIT ACADEMIA — PWA (app instalável)
+=========================================
+
+O QUE É
+Um app web instalável. No Android abre em tela cheia, com
+ícone na tela inicial, igual app nativo (sem ser .apk).
+
+--------------------------------------------------
+PUBLICAR NO NETLIFY (2 minutos, sem terminal)
+--------------------------------------------------
+1. Acesse:  https://app.netlify.com/drop
+2. Arraste ESTA pasta "dist" inteira para a página.
+   (ou o arquivo ffit-pwa.zip — o Netlify aceita zip)
+3. Ele gera um link https://... na hora. Pronto.
+
+--------------------------------------------------
+INSTALAR NO CELULAR (Android / Chrome)
+--------------------------------------------------
+1. Abra o link do Netlify no Chrome do celular.
+2. Menu (3 pontinhos) > "Adicionar à tela inicial"
+   (ou aparece o banner "Instalar app").
+3. Vira ícone da FFIT e abre em tela cheia.
+
+No iPhone: Safari > Compartilhar > "Adicionar à Tela de Início".
+
+--------------------------------------------------
+OBSERVAÇÕES
+--------------------------------------------------
+- Precisa de HTTPS para instalar. O Netlify já dá HTTPS.
+- É protótipo: dados são fictícios (Carlos Silva), sem backend.
+- Funciona offline depois da 1ª abertura (service worker).
+- Para atualizar: arraste a pasta de novo no mesmo site do Netlify.
