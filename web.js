@@ -9,14 +9,7 @@
     document.body.classList.add("ffit-web");
   }
 
-  /* Banner de protótipo */
-  var banner = document.createElement("div");
-  banner.className = "ffit-demo-banner";
-  banner.innerHTML =
-    'PROTÓTIPO INTERATIVO — dados fictícios (Carlos Silva)' +
-    (isDemo ? ' · <span>modo demo (?demo=1)</span>' : "");
-  document.body.appendChild(banner);
-  document.body.classList.add("ffit-has-banner");
+  /* Banner removido */
 
   /* Relógio real na status bar */
   function updateClock() {
